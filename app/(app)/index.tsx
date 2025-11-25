@@ -4,7 +4,7 @@ import {Fonts} from "@/constants/theme";
 import AppleAuthButton from "@/components/auth/AppleAuthButton";
 import GoogleAuthButton from "@/components/auth/GoogleAuthButton";
 import SmoothInfiniteScroll from "@/components/SmoothInfiniteScroll";
-import { LinearGradient } from 'expo-linear-gradient';
+import {LinearGradient} from 'expo-linear-gradient';
 
 export default function Index() {
     const openWebBrowser = () => {
@@ -24,13 +24,13 @@ export default function Index() {
                 <View>
                     <SmoothInfiniteScroll scrollDirection="down" iconSet="set3"/>
                 </View>
-                <LinearGradient colors={["transparent", "#fff"]} style={{
-                    position:"absolute",
-                    height:200,
-                    left:0,
-                    bottom:0,
-                    right:0
-                }}/>
+                {/*<LinearGradient colors={["transparent", "#fff"]} style={{*/}
+                {/*    position: "absolute",*/}
+                {/*    height: 200,*/}
+                {/*    left: 0,*/}
+                {/*    bottom: 0,*/}
+                {/*    right: 0*/}
+                {/*}}/>*/}
             </View>
             <View style={styles.contentContainer}>
                 <Image
